@@ -1,4 +1,8 @@
 version: 1.0
 runetime: nodejs12
+build:
+  commands:
+    build:
+      - npm install
 run:
   command: node ./index.js
