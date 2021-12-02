@@ -1,18 +1,4 @@
 version: 1.0
 runetime: nodejs12
-build:
-  commands:
-    pre-build:
-      - echo 'prebuild'
-    build:
-      - echo 'build'
-    post-build:
-      - echo 'postbuild'
-  env:
-    - name: MY_VAR_EXAMPLE
-      value: "example"
 run:
   command: node ./index.js
-  env:
-    - name: MY_VAR_EXAMPLE
-      value: "example"
